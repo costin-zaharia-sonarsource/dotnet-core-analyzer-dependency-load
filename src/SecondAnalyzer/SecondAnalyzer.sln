@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondAnalyzer", "SecondAnalyzer\SecondAnalyzer\SecondAnalyzer.csproj", "{44ED1369-A34F-4B9B-B0CF-73B8917BB1EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44ED1369-A34F-4B9B-B0CF-73B8917BB1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ED1369-A34F-4B9B-B0CF-73B8917BB1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ED1369-A34F-4B9B-B0CF-73B8917BB1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ED1369-A34F-4B9B-B0CF-73B8917BB1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA99FE0D-F861-4DDE-BE0A-D4F21FE64A7C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+dotnet build FirstAnalyzer\
+dotnet build SecondAnalyzer\
+
+dotnet "C:\Program Files\dotnet\sdk\3.1.101\Roslyn\bincore\csc.dll" Program.cs /r:"%localappdata%\NuGet\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.dll" /analyzer:"FirstAnalyzer\FirstAnalyzer\FirstAnalyzer\bin\Debug\netstandard2.0\FirstAnalyzer.dll" /analyzer:"FirstAnalyzer\FirstAnalyzer\FirstAnalyzer\bin\Debug\netstandard2.0\Common.dll" /analyzer:"SecondAnalyzer\SecondAnalyzer\SecondAnalyzer\bin\Debug\netstandard2.0\SecondAnalyzer.dll" /analyzer:"SecondAnalyzer\SecondAnalyzer\SecondAnalyzer\bin\Debug\netstandard2.0\Common.dll"
+
+dotnet "C:\Program Files\dotnet\sdk\2.0.0\Roslyn\csc.exe" Program.cs /r:"%localappdata%\NuGet\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.dll" /analyzer:"FirstAnalyzer\FirstAnalyzer\FirstAnalyzer\bin\Debug\netstandard2.0\FirstAnalyzer.dll" /analyzer:"FirstAnalyzer\FirstAnalyzer\FirstAnalyzer\bin\Debug\netstandard2.0\Common.dll" /analyzer:"SecondAnalyzer\SecondAnalyzer\SecondAnalyzer\bin\Debug\netstandard2.0\SecondAnalyzer.dll" /analyzer:"SecondAnalyzer\SecondAnalyzer\SecondAnalyzer\bin\Debug\netstandard2.0\Common.dll"
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin\Roslyn\csc.exe" Program.cs /analyzer:"FirstAnalyzer\FirstAnalyzer\FirstAnalyzer\bin\Debug\netstandard2.0\FirstAnalyzer.dll" /analyzer:"FirstAnalyzer\FirstAnalyzer\FirstAnalyzer\bin\Debug\netstandard2.0\Common.dll" /analyzer:"SecondAnalyzer\SecondAnalyzer\SecondAnalyzer\bin\Debug\netstandard2.0\SecondAnalyzer.dll" /analyzer:"SecondAnalyzer\SecondAnalyzer\SecondAnalyzer\bin\Debug\netstandard2.0\Common.dll"
